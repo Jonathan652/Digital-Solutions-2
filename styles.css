@@ -1,0 +1,121 @@
+            * {
+                margin: 0;
+                border: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 600px;
+                background: #000;
+                margin: 0 auto;
+                padding: 10px;
+                overflow-x: hidden;
+            }
+            
+            nav {
+                position: fixed;
+                background-color: rgb(10 10 10 0.95);
+                top: 0;
+                width: 100%;
+                padding: 10px;
+                z-index: 1000;
+            }
+            
+            nav:hover {
+                background-color:
+            }
+            
+            .nav-container {
+                width: 1200px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 0 auto;
+                padding: 0;
+            }
+            
+            .logo {
+                font-weight: bold;
+                background: #000;
+                cursor: pointer;
+                font-size: 20px;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            }
+            
+            logo:hover {
+                transform: scale(1.05);
+            }
+            
+            .nav-links {
+                display: flex;
+                gap: 20px;
+                list-style: none;
+            }
+            
+            .nav-links a {
+                color: #fff;
+                text-decoration: none;
+                padding: 10px 20px;
+                border-radius: 8px;
+                transition: all 0.3s ease;
+            }
+            
+            nav-links a:hover {
+                background: rgba(245, 242, 245, 0.1);
+                transform: translateY(-2px);
+            }
+            
+            .hero {
+                height: 900px;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                position: relative;
+                overflow: hidden;
+            }
+            
+            .hero-content {
+                z-index: 2;
+                max-width: 800px;
+                padding: 0 32px;
+            }
+            
+            .hero h1 {
+                font-size: 64px;
+                margin-bottom: 16px;
+                color: #fff;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            }
+            
+            .hero p {
+                font-size: 20px;
+                margin-bottom: 32px;
+                color: rgba(255, 255, 255, 0.9);
+            }
+            
+            .services {
+                padding: 80px 0;
+                background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+                color: #fff;
+            }
+            
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 32px;
+            }
+            
+            .service-title {
+                top: 0;
+                text-align: center;
+                font-size: 40px;
+                margin-bottom: 32px;
+                color: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            }
+            
+            .service-grid {}
+            
+            .service-card {}
